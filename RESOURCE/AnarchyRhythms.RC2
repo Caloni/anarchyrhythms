@@ -1,0 +1,32 @@
+//
+// SETUP.RC2 - resources Microsoft Visual C++ does not edit directly
+//
+
+
+#ifdef APSTUDIO_INVOKED
+	#error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+/////////////////////////////////////////////////////////////////////////////
+// Add manually edited resources here...
+
+/////////////////////////////////////////////////////////////////////////////
+
+2001 RCDATA DISCARDABLE "c:\\anarchysoundsoftware\\development\\anarchyrhythms\\presets\\Snappy.fxp"
+2002 RCDATA DISCARDABLE "c:\\anarchysoundsoftware\\development\\anarchyrhythms\\presets\\Adrenelin.fxp"
+2003 RCDATA DISCARDABLE "c:\\anarchysoundsoftware\\development\\anarchyrhythms\\presets\\Alchemy.fxp"
+2004 RCDATA DISCARDABLE "c:\\anarchysoundsoftware\\development\\anarchyrhythms\\presets\\Growly.fxp"
+2005 RCDATA DISCARDABLE "c:\\anarchysoundsoftware\\development\\anarchyrhythms\\presets\\Sweet.fxp"
+2006 RCDATA DISCARDABLE "c:\\anarchysoundsoftware\\development\\anarchyrhythms\\presets\\Abcess.fxp"
+2007 RCDATA DISCARDABLE "c:\\anarchysoundsoftware\\development\\anarchyrhythms\\presets\\Apache.fxp"
+2008 RCDATA DISCARDABLE "c:\\anarchysoundsoftware\\development\\anarchyrhythms\\presets\\C Beat.fxp"
+2009 RCDATA DISCARDABLE "c:\\anarchysoundsoftware\\development\\anarchyrhythms\\presets\\Easy.fxp"
+2010 RCDATA DISCARDABLE "c:\\anarchysoundsoftware\\development\\anarchyrhythms\\presets\\Think.fxp"
+2011 RCDATA DISCARDABLE "c:\\anarchysoundsoftware\\development\\anarchyrhythms\\presets\\Seven.fxp"
+2012 RCDATA DISCARDABLE "c:\\anarchysoundsoftware\\development\\anarchyrhythms\\presets\\CounterRhythm.fxp"
+2013 RCDATA DISCARDABLE "c:\\anarchysoundsoftware\\development\\anarchyrhythms\\presets\\MultibandCompressor.fxp"
+2014 RCDATA DISCARDABLE "c:\\anarchysoundsoftware\\development\\anarchyrhythms\\presets\\Combed 9th.fxp"
+2015 RCDATA DISCARDABLE "c:\\anarchysoundsoftware\\development\\anarchyrhythms\\presets\\Deep Comb.fxp"
+2016 RCDATA DISCARDABLE "c:\\anarchysoundsoftware\\development\\anarchyrhythms\\presets\\Gliss Bliss.fxp"
+
+

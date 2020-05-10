@@ -1,0 +1,181 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="ImageType" value="Folder">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Welcome to AnarchyRhythms">
+		<param name="Local" value="WHATISIT.HTM">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="NEW FEATURES!">
+		<param name="Local" value="NewFeatures.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Manual">
+		<param name="Local" value="HOWTOUSE.HTM">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Pattern Editor">
+			<param name="Local" value="PATTERNEDITOR.HTM">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Sequencing Controls">
+				<param name="Local" value="PatternSequencing.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Shuffle Controls">
+				<param name="Local" value="PatternShuffle.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Pattern Changing Controls">
+				<param name="Local" value="PatternChanging.htm">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Mixer">
+			<param name="Local" value="MIXER.HTM">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Length Pot">
+				<param name="Local" value="MIXERLENGTH.HTM">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Feedback Pot">
+				<param name="Local" value="MIXERFEEDBACK.HTM">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Comb Decay Pot">
+				<param name="Local" value="MIXERCOMB.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Compression Pot">
+				<param name="Local" value="MIXERCOMPRESSION.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Filter Width Pot">
+				<param name="Local" value="MIXERFILTER.HTM">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Oscillator Level Pot">
+				<param name="Local" value="MIXEROSCILLATOR.HTM">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Pan Pot">
+				<param name="Local" value="MIXERPAN.HTM">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Pitch Pot">
+				<param name="Local" value="MIXERPITCH.HTM">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Volume Fader">
+				<param name="Local" value="MIXERVOLUME.HTM">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Solo and Mute Buttons">
+				<param name="Local" value="MIXERSOLOMUTE.HTM">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Sound Name">
+				<param name="Local" value="MIXERNAME.HTM">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Edit Pane">
+			<param name="Local" value="EDITPANE.HTM">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Channel Tabstop">
+				<param name="Local" value="EDITPANETABSTOP.HTM">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Volume Subpane">
+				<param name="Local" value="EDITPANEVOLUME.HTM">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Filter Width Subpane">
+				<param name="Local" value="EDITPANEFILTER.HTM">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Pan Subpane">
+				<param name="Local" value="EDITPANEPAN.HTM">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Pitch Subpane">
+				<param name="Local" value="EDITPANEPITCH.HTM">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Oscillator Subpane">
+				<param name="Local" value="EDITPANEOSCILLATOR.HTM">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Length Adjuster">
+				<param name="Local" value="EDITPANELENGTH.HTM">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Feedback Adjuster">
+				<param name="Local" value="EDITPANEFEEDBACK.HTM">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Comb Adjuster">
+				<param name="Local" value="EDITPANECOMB.htm">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Compression Adjuster">
+				<param name="Local" value="EDITPANECOMPRESSION.HTM">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Level Sliders">
+			<param name="Local" value="LEVELS.HTM">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Menu Commands">
+			<param name="Local" value="MENUS.HTM">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Backwards Compatibility">
+			<param name="Local" value="BACKWARDSCOMPATIBILITY.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Getting the most from AnarchyRhythms">
+			<param name="Local" value="GETTINGTHEMOST.HTM">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Notes">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="VST Installation">
+			<param name="Local" value="INSTALLATIONVST.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Standalone .EXE Installation">
+			<param name="Local" value="INSTALLATIONSTANDALONE.htm">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Compatibility">
+			<param name="Local" value="COMPATIBILITY.HTM">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="License Conditions">
+			<param name="Local" value="LICENSECONDITIONS.HTM">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Credits">
+			<param name="Local" value="CREDITS.HTM">
+			</OBJECT>
+	</UL>
+</UL>
+</BODY></HTML>

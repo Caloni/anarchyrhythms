@@ -1,0 +1,81 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: AnarchyRhythmsDEMO - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Leighton\LOCALS~1\Temp\RSPFA.tmp" with contents
+[
+/nologo /G5 /MT /W3 /GX /O2 /I "../source/common" /I "../source/ADelay" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D WINDOWS=1 /D "EVALUATIONVERSION" /Fp"Release/Demo/AnarchyRhythmsDEMO.pch" /YX /Fo"Release/Demo/" /Fd"Release/Demo/" /FD /c 
+"C:\AnarchySoundSoftware\Development\AnarchyRhythms\Presets.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Leighton\LOCALS~1\Temp\RSPFA.tmp" 
+Creating temporary file "C:\DOCUME~1\Leighton\LOCALS~1\Temp\RSPFB.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib LibCMT.LIB vstgui.lib htmlhelp.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release/Demo/AnarchyRhythmsDEMO.pdb" /machine:I386 /def:".\AnarchyRhythmsDEMO.def" /out:"Release/Demo/AnarchyRhythmsDEMO.dll" /implib:"Release/Demo/AnarchyRhythmsDEMO.lib" /libpath:"library" 
+.\Release\Demo\ADelayEditMain.obj
+.\Release\Demo\AudioEffect.obj
+.\Release\Demo\audioeffectx.obj
+.\Release\Demo\BaseDLLEdit.obj
+.\Release\Demo\externalstatedata_v1.obj
+.\Release\Demo\midimap_v1.obj
+.\Release\Demo\BandPass.obj
+.\Release\Demo\BaseDLL.obj
+.\Release\Demo\Compression.obj
+.\Release\Demo\EXTERNALSTATEDATA_v2.obj
+.\Release\Demo\InternalStateData.obj
+.\Release\Demo\midimap_v2.obj
+.\Release\Demo\MyHelpers.obj
+.\Release\Demo\Presets.obj
+.\Release\Demo\Wav.obj
+.\Release\Demo\Banner.obj
+.\Release\Demo\CheckBox.obj
+.\Release\Demo\ControlPositioners.obj
+.\Release\Demo\Editor.obj
+.\Release\Demo\Envelope.obj
+.\Release\Demo\IntAdjuster.obj
+.\Release\Demo\IOSlider.obj
+.\Release\Demo\Knob.obj
+.\Release\Demo\LevelSlider.obj
+.\Release\Demo\LightUpBox.obj
+.\Release\Demo\MixerChannelEditor.obj
+.\Release\Demo\MixerOutline.obj
+.\Release\Demo\MixSlider.obj
+.\Release\Demo\MyOptionMenu.obj
+.\Release\Demo\PatternEditor.obj
+.\Release\Demo\PopupNameEdit.obj
+.\Release\Demo\ShuffleSlider.obj
+.\Release\Demo\SleepingReporter.obj
+.\Release\Demo\SoundEditPane.obj
+.\Release\Demo\SoundNameEdit.obj
+.\Release\Demo\SpinButton.obj
+.\Release\Demo\About.obj
+.\Release\Demo\ContextMenu.obj
+.\Release\Demo\Help.obj
+.\Release\Demo\PopupMenu.obj
+.\Release\Demo\DelayEditGUI.res
+]
+Creating command line "link.exe @C:\DOCUME~1\Leighton\LOCALS~1\Temp\RSPFB.tmp"
+<h3>Output Window</h3>
+Compiling...
+Presets.cpp
+Linking...
+   Creating library Release/Demo/AnarchyRhythmsDEMO.lib and object Release/Demo/AnarchyRhythmsDEMO.exp
+Creating temporary file "C:\DOCUME~1\Leighton\LOCALS~1\Temp\RSPFF.bat" with contents
+[
+@echo off
+copy Release\Demo\AnarchyRhythmsDEMO.dll C:\Progra~1\Steinberg\Wavelab\System\plugins\AnarchyRhythms_DEMO_build.dll
+]
+Creating command line "C:\DOCUME~1\Leighton\LOCALS~1\Temp\RSPFF.bat"
+deploy plugin to wavelab folder
+        1 file(s) copied.
+
+
+
+<h3>Results</h3>
+AnarchyRhythmsDEMO.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

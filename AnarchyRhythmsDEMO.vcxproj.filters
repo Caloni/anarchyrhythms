@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{c2070c56-84c2-486d-bbc2-2a5a860edf07}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="VST Framework">
+      <UniqueIdentifier>{c774a0d9-0c7f-4243-89f1-f6dc190748e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AnarchyRhythms Core">
+      <UniqueIdentifier>{8bc27f32-939d-4230-b91d-b7e6d2d8bce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AnarchyRhythms Core\backward compatibility">
+      <UniqueIdentifier>{32e3e417-ad18-4a1c-8e97-eb7502e9a315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VstGui">
+      <UniqueIdentifier>{7aaa1c09-2f65-461d-860b-1a50022aaaca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WinGui">
+      <UniqueIdentifier>{d469d298-b003-44a4-a01c-6929e64eb572}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource\DelayEditGUI.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resource\faded00128.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\faded00129.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RESOURCE\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RESOURCE\IOSlider.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RESOURCE\KnobLarge.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RESOURCE\KnobSmall.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RESOURCE\LevelSlider.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\logoLighter.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RESOURCE\MixSlider.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RESOURCE\PatternDown.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RESOURCE\PatternDownDisabled.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RESOURCE\PatternUp.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RESOURCE\PatternUpDisabled.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RESOURCE\Rhythms Logo.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RESOURCE\ShuffleSlider.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RESOURCE\TEMPLATE00128.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RESOURCE\TEMPLATE00129.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ADelayEditMain.cpp">
+      <Filter>VST Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioEffect.cpp">
+      <Filter>VST Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="audioeffectx.cpp">
+      <Filter>VST Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseDLLEdit.cpp">
+      <Filter>VST Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="externalstatedata_v1.cpp">
+      <Filter>AnarchyRhythms Core\backward compatibility</Filter>
+    </ClCompile>
+    <ClCompile Include="midimap_v1.cpp">
+      <Filter>AnarchyRhythms Core\backward compatibility</Filter>
+    </ClCompile>
+    <ClCompile Include="BandPass.cpp">
+      <Filter>AnarchyRhythms Core</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseDLL.cpp">
+      <Filter>AnarchyRhythms Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Compression.cpp">
+      <Filter>AnarchyRhythms Core</Filter>
+    </ClCompile>
+    <ClCompile Include="EXTERNALSTATEDATA_v2.CPP">
+      <Filter>AnarchyRhythms Core</Filter>
+    </ClCompile>
+    <ClCompile Include="InternalStateData.cpp">
+      <Filter>AnarchyRhythms Core</Filter>
+    </ClCompile>
+    <ClCompile Include="midimap_v2.cpp">
+      <Filter>AnarchyRhythms Core</Filter>
+    </ClCompile>
+    <ClCompile Include="MyHelpers.cpp">
+      <Filter>AnarchyRhythms Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Presets.cpp">
+      <Filter>AnarchyRhythms Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Wav.cpp">
+      <Filter>AnarchyRhythms Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Banner.cpp">
+      <Filter>VstGui</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckBox.cpp">
+      <Filter>VstGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlPositioners.cpp">
+      <Filter>VstGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor.cpp">
+      <Filter>VstGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Envelope.cpp">
+      <Filter>VstGui</Filter>
+    </ClCompile>
+    <ClCompile Include="IntAdjuster.cpp">
+      <Filter>VstGui</Filter>
+    </ClCompile>
+    <ClCompile Include="IOSlider.cpp">
+      <Filter>VstGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Knob.cpp">
+      <Filter>VstGui</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelSlider.cpp">
+      <Filter>VstGui</Filter>
+    </ClCompile>
+    <ClCompile Include="LightUpBox.cpp">
+      <Filter>VstGui</Filter>
+    </ClCompile>
+    <ClCompile Include="MixerChannelEditor.cpp">
+      <Filter>VstGui</Filter>
+    </ClCompile>
+    <ClCompile Include="MixerOutline.cpp">
+      <Filter>VstGui</Filter>
+    </ClCompile>
+    <ClCompile Include="MixSlider.cpp">
+      <Filter>VstGui</Filter>
+    </ClCompile>
+    <ClCompile Include="MyOptionMenu.cpp">
+      <Filter>VstGui</Filter>
+    </ClCompile>
+    <ClCompile Include="PatternEditor.cpp">
+      <Filter>VstGui</Filter>
+    </ClCompile>
+    <ClCompile Include="PopupNameEdit.CPP">
+      <Filter>VstGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ShuffleSlider.cpp">
+      <Filter>VstGui</Filter>
+    </ClCompile>
+    <ClCompile Include="SleepingReporter.cpp">
+      <Filter>VstGui</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEditPane.cpp">
+      <Filter>VstGui</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundNameEdit.cpp">
+      <Filter>VstGui</Filter>
+    </ClCompile>
+    <ClCompile Include="SpinButton.cpp">
+      <Filter>VstGui</Filter>
+    </ClCompile>
+    <ClCompile Include="About.cpp">
+      <Filter>WinGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ContextMenu.cpp">
+      <Filter>WinGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Help.cpp">
+      <Filter>WinGui</Filter>
+    </ClCompile>
+    <ClCompile Include="PopupMenu.cpp">
+      <Filter>WinGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AEffect.h">
+      <Filter>VST Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="aeffectx.h">
+      <Filter>VST Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="AEffEditor.hpp">
+      <Filter>VST Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioEffect.hpp">
+      <Filter>VST Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="audioeffectx.h">
+      <Filter>VST Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseDLLEdit.hpp">
+      <Filter>VST Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="vstcontrols.h">
+      <Filter>VST Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="vstgui.h">
+      <Filter>VST Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTERNALSTATEDATA_v1.H">
+      <Filter>AnarchyRhythms Core\backward compatibility</Filter>
+    </ClInclude>
+    <ClInclude Include="midimap_v1.h">
+      <Filter>AnarchyRhythms Core\backward compatibility</Filter>
+    </ClInclude>
+    <ClInclude Include="BandPass.h">
+      <Filter>AnarchyRhythms Core</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseDLL.hpp">
+      <Filter>AnarchyRhythms Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Compression.h">
+      <Filter>AnarchyRhythms Core</Filter>
+    </ClInclude>
+    <ClInclude Include="EXTERNALSTATEDATA_v2.H">
+      <Filter>AnarchyRhythms Core</Filter>
+    </ClInclude>
+    <ClInclude Include="InternalStateData.h">
+      <Filter>AnarchyRhythms Core</Filter>
+    </ClInclude>
+    <ClInclude Include="midimap_v2.h">
+      <Filter>AnarchyRhythms Core</Filter>
+    </ClInclude>
+    <ClInclude Include="MyConsts.h">
+      <Filter>AnarchyRhythms Core</Filter>
+    </ClInclude>
+    <ClInclude Include="MyHelpers.h">
+      <Filter>AnarchyRhythms Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Presets.h">
+      <Filter>AnarchyRhythms Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Wav.h">
+      <Filter>AnarchyRhythms Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Banner.h">
+      <Filter>VstGui</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckBox.h">
+      <Filter>VstGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlPositioners.h">
+      <Filter>VstGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor.hpp">
+      <Filter>VstGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Envelope.h">
+      <Filter>VstGui</Filter>
+    </ClInclude>
+    <ClInclude Include="IntAdjuster.h">
+      <Filter>VstGui</Filter>
+    </ClInclude>
+    <ClInclude Include="IOSlider.h">
+      <Filter>VstGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Knob.h">
+      <Filter>VstGui</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelSlider.h">
+      <Filter>VstGui</Filter>
+    </ClInclude>
+    <ClInclude Include="LightUpBox.h">
+      <Filter>VstGui</Filter>
+    </ClInclude>
+    <ClInclude Include="MixerChannelEditor.h">
+      <Filter>VstGui</Filter>
+    </ClInclude>
+    <ClInclude Include="MixerOutline.h">
+      <Filter>VstGui</Filter>
+    </ClInclude>
+    <ClInclude Include="MixSlider.h">
+      <Filter>VstGui</Filter>
+    </ClInclude>
+    <ClInclude Include="MyOptionMenu.h">
+      <Filter>VstGui</Filter>
+    </ClInclude>
+    <ClInclude Include="PatternEditor.h">
+      <Filter>VstGui</Filter>
+    </ClInclude>
+    <ClInclude Include="PopupNameEdit.H">
+      <Filter>VstGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ShuffleSlider.h">
+      <Filter>VstGui</Filter>
+    </ClInclude>
+    <ClInclude Include="SleepingReporter.h">
+      <Filter>VstGui</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEditPane.h">
+      <Filter>VstGui</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundNameEdit.h">
+      <Filter>VstGui</Filter>
+    </ClInclude>
+    <ClInclude Include="SpinButton.h">
+      <Filter>VstGui</Filter>
+    </ClInclude>
+    <ClInclude Include="About.h">
+      <Filter>WinGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ContextMenu.h">
+      <Filter>WinGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Help.h">
+      <Filter>WinGui</Filter>
+    </ClInclude>
+    <ClInclude Include="PopupMenu.h">
+      <Filter>WinGui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="RESOURCE\AnarchyRhythms.RC2">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AnarchyRhythmsDEMO.def">
+      <Filter>VST Framework</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

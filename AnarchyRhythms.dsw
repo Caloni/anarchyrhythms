@@ -1,0 +1,125 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "AnarchyRhythms"=.\AnarchyRhythms.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "AnarchyRhythmsDEMO"=.\AnarchyRhythmsDEMO.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "BuildEverything"=.\BuildEverything\BuildEverything.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Setup
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name SetupDEMO
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Setup"=.\SETUP\Setup.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name AnarchyRhythms
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name standalonewrapper
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "SetupDEMO"=.\SETUP\SetupDEMO.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name AnarchyRhythmsDEMO
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name standalonewrapperDEMO
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "standalonewrapper"=.\standalonewrapper.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name AnarchyRhythms
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "standalonewrapperDEMO"=.\standalonewrapperDEMO.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name AnarchyRhythmsDEMO
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

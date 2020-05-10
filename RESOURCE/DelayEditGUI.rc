@@ -1,0 +1,180 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include <windows.h>
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.K.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+125 DIALOG DISCARDABLE  10, 10, 247, 142
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "AnarchyRhythms"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Close",CLOSEBUTTON,69,119,105,15,NOT WS_TABSTOP
+    COMBOBOX        IDC_SLEEPINGADDRESSHOLDER,235,0,16,9
+    CTEXT           "AnarchyRhythms v2 (c) 2005",IDC_STATIC,71,20,174,8
+    CTEXT           "Designed and programmed by Leighton Hargreaves",
+                    IDC_STATIC,0,48,247,8
+    CTEXT           "Published by Anarchy Sound Software",IDC_STATIC,0,66,
+                    247,8
+    CTEXT           "VST plugin technology by Steinberg",IDC_STATIC,0,85,247,
+                    8
+    CONTROL         110,IDC_STATIC,"Static",SS_BITMAP,9,5,88,40
+END
+
+127 DIALOG DISCARDABLE  10, 10, 410, 286
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "MIDI Automation Map - AnarchyRhythms"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "&OK",OKBUTTON,317,268,87,12
+    PUSHBUTTON      "&Cancel",CANCELBUTTON,231,268,81,12
+    CTEXT           "volume",17,22,45,24,8
+    CTEXT           "pan",18,32,58,13,8
+    CTEXT           "pan env.",19,18,76,29,8
+    CTEXT           "pitch",20,30,90,16,8
+    CTEXT           "pitch env.",21,16,106,32,8
+    CTEXT           "filter",22,32,122,14,8
+    CTEXT           "length",23,28,138,20,8
+    CTEXT           "oscillator",60,18,154,28,8
+    CTEXT           "input volume",61,14,230,41,8
+    CTEXT           "volume",26,122,45,24,8
+    CTEXT           "pan",27,132,58,13,8
+    CTEXT           "pan env.",30,118,76,29,8
+    CTEXT           "pitch",31,130,90,16,8
+    CTEXT           "pitch env.",34,116,106,32,8
+    CTEXT           "filter",35,131,122,14,8
+    CTEXT           "length",38,127,138,20,8
+    CTEXT           "oscillator",62,118,154,28,8
+    CTEXT           "feedback",63,116,170,31,8
+    CTEXT           "volume",55,223,45,24,8
+    CTEXT           "pan",59,233,58,13,8
+    CTEXT           "pan env.",64,219,76,29,8
+    CTEXT           "pitch",65,231,90,16,8
+    CTEXT           "pitch env.",66,217,106,32,8
+    CTEXT           "filter",67,232,122,14,8
+    CTEXT           "length",68,228,138,20,8
+    CTEXT           "oscillator",69,219,154,28,8
+    CTEXT           "feedback",70,217,170,31,8
+    CTEXT           "volume",80,324,46,24,8
+    CTEXT           "pan",81,334,58,13,8
+    CTEXT           "pan env.",82,320,77,29,8
+    CTEXT           "pitch",83,332,90,16,8
+    CTEXT           "pitch env.",84,318,106,32,8
+    CTEXT           "filter",85,333,122,14,8
+    CTEXT           "length",86,329,138,20,8
+    CTEXT           "oscillator",87,320,154,28,8
+    CTEXT           "feedback",88,318,170,31,8
+    CTEXT           "output volume",90,292,230,46,8
+    CTEXT           "dry/wet slider",92,140,230,43,8
+    CTEXT           "feedback",94,16,170,31,8
+    PUSHBUTTON      "C&lear all",CLEAR,5,268,87,12
+    CTEXT           "SOUND 1",24,31,29,33,8
+    CTEXT           "SOUND 2",25,133,29,33,8
+    CTEXT           "SOUND 3",28,233,29,33,8
+    CTEXT           "SOUND 4",29,333,29,33,8
+    LTEXT           "MIDI INPUT CHANNEL",IDC_STATIC,11,7,76,8
+    COMBOBOX        IDC_SLEEPINGADDRESSHOLDER,393,6,8,9
+    CTEXT           "shuffle type",91,17,249,37,8
+    CTEXT           "shuffle amount",93,135,249,47,8
+    CTEXT           "pattern change",95,290,249,49,8
+    CTEXT           "comb",71,25,185,18,8
+    CTEXT           "comb",72,125,185,18,8
+    CTEXT           "compression",73,105,200,40,8
+    CTEXT           "comb",74,227,185,18,8
+    CTEXT           "compression",75,207,200,40,8
+    CTEXT           "comb",89,327,185,18,8
+    CTEXT           "compression",96,307,200,40,8
+    CTEXT           "compression",97,5,200,40,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+128                     BITMAP  DISCARDABLE     "template00128.bmp"
+129                     BITMAP  DISCARDABLE     "template00129.bmp"
+IDB_SHUFFLESLIDER       BITMAP  DISCARDABLE     "ShuffleSlider.bmp"
+IDB_MIXSLIDER           BITMAP  DISCARDABLE     "MixSlider.bmp"
+IDB_LEVELSLIDER         BITMAP  DISCARDABLE     "LevelSlider.bmp"
+IDB_IOSLIDER            BITMAP  DISCARDABLE     "IOSlider.bmp"
+IDB_KNOBSMALL           BITMAP  DISCARDABLE     "KnobSmall.bmp"
+IDB_KNOBLARGE           BITMAP  DISCARDABLE     "KnobLarge.bmp"
+IDB_LOGO                BITMAP  DISCARDABLE     "Rhythms Logo.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ANARCHY             ICON    DISCARDABLE     "icon1.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include <windows.h>\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""AnarchyRhythms.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "\0"
+END
+
+4 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.K.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#include "AnarchyRhythms.rc2"  // non-Microsoft Visual C++ edited resources
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

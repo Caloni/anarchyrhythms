@@ -1,0 +1,326 @@
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling c:\AnarchySoundSoftware\Development\AnarchyRhythms\HELP\AnarchyRhythms.chm
+
+HHC5013: Error: URL reference in the TOC cannot be resolved: "Credits".
+
+
+The following files were not compiled:
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling c:\AnarchySoundSoftware\Development\AnarchyRhythms\HELP\AnarchyRhythms.chm
+
+HHC5013: Error: URL reference in the TOC cannot be resolved: "Credits".
+
+
+The following files were not compiled:
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling c:\AnarchySoundSoftware\Development\AnarchyRhythms\HELP\AnarchyRhythms.chm
+
+
+Compile time: 0 minutes, 1 second
+31	Topics
+73	Local links
+2	Internet links
+12	Graphics
+
+
+Created c:\AnarchySoundSoftware\Development\AnarchyRhythms\HELP\AnarchyRhythms.chm, 135,602 bytes
+Compression decreased file by 77,105 bytes.
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling c:\AnarchySoundSoftware\Development\AnarchyRhythms\HELP\AnarchyRhythms.chm
+
+
+Compile time: 0 minutes, 1 second
+31	Topics
+73	Local links
+2	Internet links
+12	Graphics
+
+
+Created c:\AnarchySoundSoftware\Development\AnarchyRhythms\HELP\AnarchyRhythms.chm, 135,602 bytes
+Compression decreased file by 77,105 bytes.
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling c:\AnarchySoundSoftware\Development\AnarchyRhythms\HELP\AnarchyRhythms.chm
+
+
+Compile time: 0 minutes, 1 second
+31	Topics
+73	Local links
+2	Internet links
+12	Graphics
+
+
+Created c:\AnarchySoundSoftware\Development\AnarchyRhythms\HELP\AnarchyRhythms.chm, 135,602 bytes
+Compression decreased file by 77,105 bytes.
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling c:\AnarchySoundSoftware\Development\AnarchyRhythms\HELP\AnarchyRhythms.chm
+
+Table of Contents.hhc
+
+Compile time: 0 minutes, 2 seconds
+31	Topics
+68	Local links
+2	Internet links
+12	Graphics
+
+
+Created c:\AnarchySoundSoftware\Development\AnarchyRhythms\HELP\AnarchyRhythms.chm, 138,416 bytes
+Compression decreased file by 78,465 bytes.
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling c:\AnarchySoundSoftware\Development\AnarchyRhythms\HELP\AnarchyRhythms.chm
+
+toc.hhc
+
+Compile time: 0 minutes, 1 second
+31	Topics
+68	Local links
+2	Internet links
+12	Graphics
+
+
+Created c:\AnarchySoundSoftware\Development\AnarchyRhythms\HELP\AnarchyRhythms.chm, 138,390 bytes
+Compression decreased file by 78,491 bytes.
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling c:\AnarchySoundSoftware\Development\AnarchyRhythms\HELP\AnarchyRhythms.chm
+
+Table of Contents.hhc
+
+Compile time: 0 minutes, 1 second
+31	Topics
+68	Local links
+2	Internet links
+12	Graphics
+
+
+Created c:\AnarchySoundSoftware\Development\AnarchyRhythms\HELP\AnarchyRhythms.chm, 138,416 bytes
+Compression decreased file by 78,465 bytes.
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling c:\AnarchySoundSoftware\Development\AnarchyRhythms\HELP\AnarchyRhythms.chm
+
+Table of Contents.hhc
+HHC6000: Error: An internal file could not be created. Make certain there is enough disk space on the drive where you are compiling your file.
+HHC5007: Error: Fatal navigational compilation error. This is likely the result of an invalid contents (.hhc) file.
+
+
+The following files were not compiled:
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling c:\AnarchySoundSoftware\Development\AnarchyRhythms\HELP\AnarchyRhythms.chm
+
+Table of Contents.hhc
+HHC6000: Error: An internal file could not be created. Make certain there is enough disk space on the drive where you are compiling your file.
+HHC5007: Error: Fatal navigational compilation error. This is likely the result of an invalid contents (.hhc) file.
+
+
+The following files were not compiled:
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling c:\AnarchySoundSoftware\Development\AnarchyRhythms\HELP\AnarchyRhythms.chm
+
+HHC5003: Error: Compilation failed while compiling Welcome.htm.
+HHC5003: Error: Compilation failed while compiling OscillatorParameters.htm.
+HHC5003: Error: Compilation failed while compiling HomePositions.htm.
+HHC5003: Error: Compilation failed while compiling ParameterRanges.htm.
+HHC5003: Error: Compilation failed while compiling HomePositionEnvelopes.htm.
+HHC5003: Error: Compilation failed while compiling ParameterRangeEnvelopes.htm.
+HHC5003: Error: Compilation failed while compiling IndividualOscillatorMovement.htm.
+HHC5003: Error: Compilation failed while compiling HyperspaceFlockingBehaviour.htm.
+HHC5003: Error: Compilation failed while compiling HyperspaceVisualisation.htm.
+HHC5003: Error: Compilation failed while compiling Additional processing.htm.
+HHC5003: Error: Compilation failed while compiling SynthesisOptions.htm.
+HHC5003: Error: Compilation failed while compiling MidiControllerMap.htm.
+HHC5003: Error: Compilation failed while compiling DeterminismSeeding.htm.
+HHC5003: Error: Compilation failed while compiling VisualisationOptions.htm.
+HHC5003: Error: Compilation failed while compiling Vst Automation.htm.
+HHC5003: Error: Compilation failed while compiling ResetDevices.htm.
+HHC5003: Error: Compilation failed while compiling AnarchyButton.htm.
+HHC5003: Error: Compilation failed while compiling InstallationNotes.htm.
+HHC5003: Error: Compilation failed while compiling Legal.htm.
+HHC5003: Error: Compilation failed while compiling QWERTYUIOP.htm.
+HHC5003: Error: Compilation failed while compiling SpeedLFODialog.htm.
+
+
+The following files were not compiled:
+Welcome.htm
+OscillatorParameters.htm
+HomePositions.htm
+ParameterRanges.htm
+HomePositionEnvelopes.htm
+ParameterRangeEnvelopes.htm
+IndividualOscillatorMovement.htm
+HyperspaceFlockingBehaviour.htm
+HyperspaceVisualisation.htm
+Additional processing.htm
+SynthesisOptions.htm
+MidiControllerMap.htm
+DeterminismSeeding.htm
+VisualisationOptions.htm
+Vst Automation.htm
+ResetDevices.htm
+AnarchyButton.htm
+InstallationNotes.htm
+Legal.htm
+QWERTYUIOP.htm
+SpeedLFODialog.htm
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling c:\AnarchySoundSoftware\Development\AnarchyRhythms\HELP\AnarchyRhythms.chm
+
+HHC5003: Error: Compilation failed while compiling Welcome.htm.
+HHC5003: Error: Compilation failed while compiling OscillatorParameters.htm.
+HHC5003: Error: Compilation failed while compiling HomePositions.htm.
+HHC5003: Error: Compilation failed while compiling ParameterRanges.htm.
+HHC5003: Error: Compilation failed while compiling HomePositionEnvelopes.htm.
+HHC5003: Error: Compilation failed while compiling ParameterRangeEnvelopes.htm.
+HHC5003: Error: Compilation failed while compiling IndividualOscillatorMovement.htm.
+HHC5003: Error: Compilation failed while compiling HyperspaceFlockingBehaviour.htm.
+HHC5003: Error: Compilation failed while compiling HyperspaceVisualisation.htm.
+HHC5003: Error: Compilation failed while compiling Additional processing.htm.
+HHC5003: Error: Compilation failed while compiling SynthesisOptions.htm.
+HHC5003: Error: Compilation failed while compiling MidiControllerMap.htm.
+HHC5003: Error: Compilation failed while compiling DeterminismSeeding.htm.
+HHC5003: Error: Compilation failed while compiling VisualisationOptions.htm.
+HHC5003: Error: Compilation failed while compiling Vst Automation.htm.
+HHC5003: Error: Compilation failed while compiling ResetDevices.htm.
+HHC5003: Error: Compilation failed while compiling AnarchyButton.htm.
+HHC5003: Error: Compilation failed while compiling InstallationNotes.htm.
+HHC5003: Error: Compilation failed while compiling Legal.htm.
+HHC5003: Error: Compilation failed while compiling QWERTYUIOP.htm.
+HHC5003: Error: Compilation failed while compiling SpeedLFODialog.htm.
+
+
+The following files were not compiled:
+Welcome.htm
+OscillatorParameters.htm
+HomePositions.htm
+ParameterRanges.htm
+HomePositionEnvelopes.htm
+ParameterRangeEnvelopes.htm
+IndividualOscillatorMovement.htm
+HyperspaceFlockingBehaviour.htm
+HyperspaceVisualisation.htm
+Additional processing.htm
+SynthesisOptions.htm
+MidiControllerMap.htm
+DeterminismSeeding.htm
+VisualisationOptions.htm
+Vst Automation.htm
+ResetDevices.htm
+AnarchyButton.htm
+InstallationNotes.htm
+Legal.htm
+QWERTYUIOP.htm
+SpeedLFODialog.htm
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling c:\AnarchySoundSoftware\Development\AnarchyRhythms\HELP\AnarchyRhythms.chm
+
+HHC5003: Error: Compilation failed while compiling Welcome.htm.
+HHC5003: Error: Compilation failed while compiling OscillatorParameters.htm.
+HHC5003: Error: Compilation failed while compiling HomePositions.htm.
+HHC5003: Error: Compilation failed while compiling ParameterRanges.htm.
+HHC5003: Error: Compilation failed while compiling HomePositionEnvelopes.htm.
+HHC5003: Error: Compilation failed while compiling ParameterRangeEnvelopes.htm.
+HHC5003: Error: Compilation failed while compiling IndividualOscillatorMovement.htm.
+HHC5003: Error: Compilation failed while compiling HyperspaceFlockingBehaviour.htm.
+HHC5003: Error: Compilation failed while compiling HyperspaceVisualisation.htm.
+HHC5003: Error: Compilation failed while compiling Additional processing.htm.
+HHC5003: Error: Compilation failed while compiling SynthesisOptions.htm.
+HHC5003: Error: Compilation failed while compiling MidiControllerMap.htm.
+HHC5003: Error: Compilation failed while compiling DeterminismSeeding.htm.
+HHC5003: Error: Compilation failed while compiling VisualisationOptions.htm.
+HHC5003: Error: Compilation failed while compiling Vst Automation.htm.
+HHC5003: Error: Compilation failed while compiling ResetDevices.htm.
+HHC5003: Error: Compilation failed while compiling AnarchyButton.htm.
+HHC5003: Error: Compilation failed while compiling InstallationNotes.htm.
+HHC5003: Error: Compilation failed while compiling Legal.htm.
+HHC5003: Error: Compilation failed while compiling QWERTYUIOP.htm.
+HHC5003: Error: Compilation failed while compiling SpeedLFODialog.htm.
+
+
+The following files were not compiled:
+Welcome.htm
+OscillatorParameters.htm
+HomePositions.htm
+ParameterRanges.htm
+HomePositionEnvelopes.htm
+ParameterRangeEnvelopes.htm
+IndividualOscillatorMovement.htm
+HyperspaceFlockingBehaviour.htm
+HyperspaceVisualisation.htm
+Additional processing.htm
+SynthesisOptions.htm
+MidiControllerMap.htm
+DeterminismSeeding.htm
+VisualisationOptions.htm
+Vst Automation.htm
+ResetDevices.htm
+AnarchyButton.htm
+InstallationNotes.htm
+Legal.htm
+QWERTYUIOP.htm
+SpeedLFODialog.htm
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling c:\AnarchySoundSoftware\Development\AnarchyRhythms\HELP\AnarchyRhythms.chm
+
+
+Compile time: 0 minutes, 1 second
+5	Topics
+10	Local links
+1	Internet link
+1	Graphic
+
+
+Created c:\AnarchySoundSoftware\Development\AnarchyRhythms\HELP\AnarchyRhythms.chm, 21,561 bytes
+Compression increased file by 3,447 bytes.
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling c:\AnarchySoundSoftware\Development\AnarchyRhythms\HELP\AnarchyRhythms.chm
+
+
+Compile time: 0 minutes, 1 second
+5	Topics
+10	Local links
+1	Internet link
+1	Graphic
+
+
+Created c:\AnarchySoundSoftware\Development\AnarchyRhythms\HELP\AnarchyRhythms.chm, 21,550 bytes
+Compression increased file by 3,436 bytes.
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling c:\AnarchySoundSoftware\Development\AnarchyRhythms\HELP\AnarchyRhythms.chm
+
+
+Compile time: 0 minutes, 1 second
+5	Topics
+10	Local links
+1	Internet link
+1	Graphic
+
+
+Created c:\AnarchySoundSoftware\Development\AnarchyRhythms\HELP\AnarchyRhythms.chm, 21,550 bytes
+Compression increased file by 3,436 bytes.
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling c:\AnarchySoundSoftware\Development\AnarchyRhythms\HELP\AnarchyRhythms.chm
+
+
+Compile time: 0 minutes, 1 second
+5	Topics
+10	Local links
+1	Internet link
+1	Graphic
+
+
+Created c:\AnarchySoundSoftware\Development\AnarchyRhythms\HELP\AnarchyRhythms.chm, 21,548 bytes
+Compression increased file by 3,452 bytes.

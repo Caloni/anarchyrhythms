@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AnarchyRhythms", "AnarchyRhythms.vcxproj", "{FA426A1C-738A-47E3-81AF-149239327AE7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AnarchyRhythmsDEMO", "AnarchyRhythmsDEMO.vcxproj", "{B1DE10AD-E991-4221-9E61-4F44446BD3DA}"
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "BuildEverything", "BuildEverything\BuildEverything.dsp", "{74253FBF-0BF2-4CA2-AB24-7507182C1CCA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{48EB74D4-FBA4-4579-A277-C2D5481020C9} = {48EB74D4-FBA4-4579-A277-C2D5481020C9}
+		{D250DFF6-8F63-4A59-9E4B-589657D6EF33} = {D250DFF6-8F63-4A59-9E4B-589657D6EF33}
+	EndProjectSection
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "Setup", "SETUP\Setup.dsp", "{48EB74D4-FBA4-4579-A277-C2D5481020C9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FA426A1C-738A-47E3-81AF-149239327AE7} = {FA426A1C-738A-47E3-81AF-149239327AE7}
+		{7FE6E875-76B9-4B6F-A34E-3B8EBA945443} = {7FE6E875-76B9-4B6F-A34E-3B8EBA945443}
+	EndProjectSection
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "SetupDEMO", "SETUP\SetupDEMO.dsp", "{D250DFF6-8F63-4A59-9E4B-589657D6EF33}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B1DE10AD-E991-4221-9E61-4F44446BD3DA} = {B1DE10AD-E991-4221-9E61-4F44446BD3DA}
+		{FDF3685A-2686-4EC8-A882-71CA945E42E8} = {FDF3685A-2686-4EC8-A882-71CA945E42E8}
+	EndProjectSection
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "standalonewrapper", "standalonewrapper.dsp", "{7FE6E875-76B9-4B6F-A34E-3B8EBA945443}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FA426A1C-738A-47E3-81AF-149239327AE7} = {FA426A1C-738A-47E3-81AF-149239327AE7}
+	EndProjectSection
+EndProject
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "standalonewrapperDEMO", "standalonewrapperDEMO.dsp", "{FDF3685A-2686-4EC8-A882-71CA945E42E8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B1DE10AD-E991-4221-9E61-4F44446BD3DA} = {B1DE10AD-E991-4221-9E61-4F44446BD3DA}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+		Template|x64 = Template|x64
+		Template|x86 = Template|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA426A1C-738A-47E3-81AF-149239327AE7}.Debug|x64.ActiveCfg = Debug|x64
+		{FA426A1C-738A-47E3-81AF-149239327AE7}.Debug|x64.Build.0 = Debug|x64
+		{FA426A1C-738A-47E3-81AF-149239327AE7}.Debug|x86.ActiveCfg = Debug|Win32
+		{FA426A1C-738A-47E3-81AF-149239327AE7}.Debug|x86.Build.0 = Debug|Win32
+		{FA426A1C-738A-47E3-81AF-149239327AE7}.Release|x64.ActiveCfg = Release|x64
+		{FA426A1C-738A-47E3-81AF-149239327AE7}.Release|x64.Build.0 = Release|x64
+		{FA426A1C-738A-47E3-81AF-149239327AE7}.Release|x86.ActiveCfg = Release|Win32
+		{FA426A1C-738A-47E3-81AF-149239327AE7}.Release|x86.Build.0 = Release|Win32
+		{FA426A1C-738A-47E3-81AF-149239327AE7}.Template|x64.ActiveCfg = Release|x64
+		{FA426A1C-738A-47E3-81AF-149239327AE7}.Template|x64.Build.0 = Release|x64
+		{FA426A1C-738A-47E3-81AF-149239327AE7}.Template|x86.ActiveCfg = Release|Win32
+		{FA426A1C-738A-47E3-81AF-149239327AE7}.Template|x86.Build.0 = Release|Win32
+		{B1DE10AD-E991-4221-9E61-4F44446BD3DA}.Debug|x64.ActiveCfg = Debug|x64
+		{B1DE10AD-E991-4221-9E61-4F44446BD3DA}.Debug|x64.Build.0 = Debug|x64
+		{B1DE10AD-E991-4221-9E61-4F44446BD3DA}.Debug|x86.ActiveCfg = Debug|Win32
+		{B1DE10AD-E991-4221-9E61-4F44446BD3DA}.Debug|x86.Build.0 = Debug|Win32
+		{B1DE10AD-E991-4221-9E61-4F44446BD3DA}.Release|x64.ActiveCfg = Release|x64
+		{B1DE10AD-E991-4221-9E61-4F44446BD3DA}.Release|x64.Build.0 = Release|x64
+		{B1DE10AD-E991-4221-9E61-4F44446BD3DA}.Release|x86.ActiveCfg = Release|Win32
+		{B1DE10AD-E991-4221-9E61-4F44446BD3DA}.Release|x86.Build.0 = Release|Win32
+		{B1DE10AD-E991-4221-9E61-4F44446BD3DA}.Template|x64.ActiveCfg = Template|x64
+		{B1DE10AD-E991-4221-9E61-4F44446BD3DA}.Template|x64.Build.0 = Template|x64
+		{B1DE10AD-E991-4221-9E61-4F44446BD3DA}.Template|x86.ActiveCfg = Template|Win32
+		{B1DE10AD-E991-4221-9E61-4F44446BD3DA}.Template|x86.Build.0 = Template|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89146B71-5080-4DB0-923D-0642751946AE}
+	EndGlobalSection
+EndGlobal
