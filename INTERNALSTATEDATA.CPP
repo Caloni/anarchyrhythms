@@ -98,7 +98,8 @@ void InternalSoundData::Reset()
 
 	InitialLength = 0;
 
-	for(int i=0; i<NumEnvelopes; i++)
+	int i;
+	for(i=0; i<NumEnvelopes; i++)
 	{
 		EnvelopeData[i].Reset();
 	}
@@ -120,7 +121,8 @@ void InternalSoundData::StopNote()
 
 	NoteID = rand();
 
-	for(int i=0; i<NumEnvelopes; i++)
+	int i;
+	for(i=0; i<NumEnvelopes; i++)
 	{
 		EnvelopeData[i].PrevPoint = 0;
 	}
@@ -135,7 +137,8 @@ InternalStateData::InternalStateData()
 
 	//init PitchToFreqLookup
 
-	for(int i=0; i<MaxPitch; i++)
+	int i;
+	for(i=0; i<MaxPitch; i++)
 	{
 		PitchToFreqLookup[i] = 32.7031956625748293347312f * fpow(2.0f, (float)i/12.f);
 	}
@@ -158,7 +161,8 @@ void InternalStateData::Reset()
 
 	PrevSampleStep = -1;
 
-	for(int i=0; i<NumSounds; i++)
+	int i;
+	for(i=0; i<NumSounds; i++)
 	{
 		Sound[i].Reset();
 	}
@@ -173,7 +177,8 @@ void InternalStateData::GenerateShuffleLookup(const PatternData_v2 &pattern)
 
 	if(pattern.ShuffleType == stpStep)		//substep shuffle
 	{
-		for(int i=0; i<pattern.Beats*pattern.Steps; i++)
+		int i;
+		for(i=0; i<pattern.Beats*pattern.Steps; i++)
 		{
 			ShuffleLookup[i] = (float) i;
 

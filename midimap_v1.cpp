@@ -105,7 +105,8 @@ ExternalMIDIMap_v1::ExternalMIDIMap_v1()
 
 	bChanged = false;
 
-	for(int i=0; i<NumSounds; i++)
+	int i;
+	for(i=0; i<NumSounds; i++)
 	{
 		for(int j=0; j<numMIDISoundParams; j++)
 		{
@@ -297,7 +298,7 @@ void ExternalMIDIMap_v1::ClearAllOptions()
 
 
 
-BOOL CALLBACK MasterDialogProc(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lParam)
+INT_PTR CALLBACK MasterDialogProc(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lParam)
 {
 	ExternalMIDIMap_v1 *MIDIMap;
 
@@ -471,7 +472,8 @@ void ExternalMIDIMap_v1::CompileInternalMap(InternalMIDIMap *InternalMap)	//call
 {
 	InternalMap->Reset();
 
-	for(int param = 0; param < numMIDIParams; param++)
+	int param;
+	for(param = 0; param < numMIDIParams; param++)
 	{
 		InternalMap->Map(param, Param[param]);
 	}

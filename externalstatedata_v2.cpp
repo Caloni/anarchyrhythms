@@ -297,7 +297,8 @@ ExternalStateData_v2::ExternalStateData_v2(const ExternalStateData_v1 &copy)
 
 	strcpy(Name, copy.Name);
 	
-	for(int i=0; i<NumSounds; i++)
+	int i;
+	for(i=0; i<NumSounds; i++)
 	{
 		Sound[i] = SoundData_v2(copy.Sound[i]);
 	}
@@ -334,7 +335,8 @@ void ExternalStateData_v2::Randomize()
 
 	sprintf(Name, "rand#%i", seed%100000);
 
-	for(int i=0; i<nPatterns; i++)
+	int i;
+	for(i=0; i<nPatterns; i++)
 	{
 		Pattern[i].Randomize();
 	}

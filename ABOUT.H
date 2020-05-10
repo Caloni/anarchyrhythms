@@ -43,7 +43,7 @@ This file is part of AnarchyRhythms
 
 class About
 {
-	friend BOOL CALLBACK AboutDialogProc(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lParam);
+	friend INT_PTR CALLBACK AboutDialogProc(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lParam);
 
 	public:
 

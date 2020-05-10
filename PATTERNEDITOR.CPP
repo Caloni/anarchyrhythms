@@ -106,7 +106,8 @@ inline int PatternEditor::stepFromPoint(const CPoint &point)
 	PatternData_v2 &Pattern = ExternalState->getPattern();
 
 	CRect where;
-	for(int i=0; i<Pattern.Beats*Pattern.Steps; i++)
+	int i;
+	for(i=0; i<Pattern.Beats*Pattern.Steps; i++)
 	{
 		getCell(i, 0, where);
 

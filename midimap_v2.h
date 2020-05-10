@@ -42,7 +42,7 @@ This file is part of AnarchyRhythms
 
 class ExternalMIDIMap_v2
 {
-	friend BOOL CALLBACK MasterDialogProc_v2(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lParam);
+	friend INT_PTR CALLBACK MasterDialogProc_v2(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lParam);
 
 	public:
 

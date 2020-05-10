@@ -67,7 +67,8 @@ void itoa(int i, char *a)
 			pow*=10;
 		}
 
-		for(int loop = 0; loop < count; loop++)
+		int loop;
+		for(loop = 0; loop < count; loop++)
 		{
 			a[loop] = ((i/pow)%10) + '0';
 

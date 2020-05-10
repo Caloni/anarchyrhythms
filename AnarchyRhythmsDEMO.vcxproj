@@ -186,7 +186,7 @@
       <OutputFile>.\Debug/Demo\AnarchyRhythmsDEMO.dll</OutputFile>
       <ImportLibrary>.\Debug/Demo\AnarchyRhythmsDEMO.lib</ImportLibrary>
       <AdditionalLibraryDirectories>library;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>LibCMTD.LIB;vstgui.lib;htmlhelp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>LibCMTD.LIB;vstgui.lib;htmlhelp.lib;%(AdditionalDependencies);vstgui_standalone.lib;vstgui_uidescription.lib</AdditionalDependencies>
       <ModuleDefinitionFile>.\AnarchyRhythmsDEMO.def</ModuleDefinitionFile>
     </Link>
   </ItemDefinitionGroup>

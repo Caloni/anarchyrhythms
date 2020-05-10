@@ -205,7 +205,8 @@ long Editor::open(void *ptr)
 	frame->setBackground(hCurrentBackground);
 
 	//init sleeping reporters
-	for(int i=0; i<kNumSleepingReporters; i++)
+	int i;
+	for(i=0; i<kNumSleepingReporters; i++)
 	{
 		sleepingreporter[i] = new SleepingReporter(this, kFirstSleepingReporter+i);
 	}
@@ -361,6 +362,7 @@ void Editor::close()
 		frame->removeView(patterneditor);
 		delete patterneditor;
 
+		int i;
 		for(i=0; i<NumSounds; i++)
 		{
 			delete mixerchannel[i];
@@ -1002,6 +1004,7 @@ void Editor::PopulatePatternMenu()
 {
 	PatternMenu->removeAllEntry();
 
+	int i;
 	for(int i=0; i<nPatterns; i++)
 	{
 		char name[50];

@@ -62,7 +62,8 @@ SoundEditPane::SoundEditPane(CRect &_size, CFrame &_frame, ExternalStateData_v2 
 {
 	CRect pos;
 
-	for(int i=0; i<NumSounds; i++)
+	int i;
+	for(i=0; i<NumSounds; i++)
 	{
 		GetSoundPaneNameEditPos(pos, size, i);
 
@@ -177,7 +178,8 @@ SoundEditPane::SoundEditPane(CRect &_size, CFrame &_frame, ExternalStateData_v2 
 
 SoundEditPane::~SoundEditPane()
 {
-	for(int i=0; i<NumSounds; i++)
+	int i;
+	for(i=0; i<NumSounds; i++)
 	{
 		frame.removeView(SoundName[i]);
 		delete SoundName[i];
@@ -246,7 +248,8 @@ void SoundEditPane::Resize(CRect &newsize)
 
 	CRect pos;
 
-	for(int i=0; i<NumSounds; i++)
+	int i;
+	for(i=0; i<NumSounds; i++)
 	{
 		GetSoundPaneNameEditPos(pos, size, i);
 
@@ -441,7 +444,8 @@ void SoundEditPane::valueChanged(CDrawContext *context, CControl *control)
 
 void SoundEditPane::AllValuesChanged()
 {
-	for(int i=0; i<NumSounds; i++)
+	int i;
+	for(i=0; i<NumSounds; i++)
 	{
 		SoundName[i]->setText(ExternalState->Sound[i].Name);
 		SoundName[i]->SetHighlight(i == ExternalState->SelectedSound);

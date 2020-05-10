@@ -73,7 +73,7 @@ class InternalMIDIMap
 
 class ExternalMIDIMap_v1
 {
-	friend BOOL CALLBACK MasterDialogProc(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lParam);
+	friend INT_PTR CALLBACK MasterDialogProc(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lParam);
 
 	public:
 

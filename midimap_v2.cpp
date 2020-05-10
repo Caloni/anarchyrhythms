@@ -66,7 +66,8 @@ ExternalMIDIMap_v2::ExternalMIDIMap_v2()
 
 	bChanged = false;
 
-	for(int i=0; i<NumSounds; i++)
+	int i;
+	for(i=0; i<NumSounds; i++)
 	{
 		for(int j=0; j<numMIDISoundParams; j++)
 		{
@@ -89,9 +90,10 @@ ExternalMIDIMap_v2::ExternalMIDIMap_v2(const ExternalMIDIMap_v1 &copy)
 
 	bChanged = copy.bChanged;
 
-	for(int i=0; i<NumSounds; i++)
+	int i, j;
+	for(i=0; i<NumSounds; i++)
 	{
-		for(int j=0; j<numMIDISoundParams; j++)
+		for(j=0; j<numMIDISoundParams; j++)
 		{
 			SoundParam[i][j] = -1;	
 		}
@@ -289,7 +291,7 @@ void ExternalMIDIMap_v2::ClearAllOptions()
 
 
 
-BOOL CALLBACK MasterDialogProc_v2(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lParam)
+INT_PTR CALLBACK MasterDialogProc_v2(HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lParam)
 {
 	ExternalMIDIMap_v2 *MIDIMap;
 
@@ -477,7 +479,8 @@ void ExternalMIDIMap_v2::CompileInternalMap(InternalMIDIMap *InternalMap)	//call
 {
 	InternalMap->Reset();
 
-	for(int param = 0; param < numMIDIParams; param++)
+	int param;
+	for(param = 0; param < numMIDIParams; param++)
 	{
 		InternalMap->Map(param, Param[param]);
 	}

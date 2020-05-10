@@ -188,7 +188,8 @@ void Envelope::mouse(CDrawContext *context, CPoint &where)
 {
 	DraggingPoint = -1;
 
-	for(int i=0; i<data->NumPoints; i++)
+	int i;
+	for(i=0; i<data->NumPoints; i++)
 	{
 		CPoint pointwhere;
 
@@ -307,7 +308,8 @@ void Envelope::SetControlPointPos(CPoint &pos)		//sets point pointed to by Dragg
 	{
 		if(data->PointY[DraggingPoint] >= Threshold)	//this might be highest point
 		{
-			for(int i=0; i<data->NumPoints; i++)
+			int i;
+			for(i=0; i<data->NumPoints; i++)
 			{
 				if((i!=DraggingPoint) && (data->PointY[i] >= Threshold))
 				{
